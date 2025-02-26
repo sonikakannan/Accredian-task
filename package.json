@@ -1,0 +1,22 @@
+{
+  "name": "accredian-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix accredian-backend-task && npm install --prefix accredian-frontend-task && npm run build --prefix accredian-frontend-task",
+    "start": "npm run start --prefix accredian-backend-task"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonikakannan/Accredian-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sonikakannan/Accredian-task/issues"
+  },
+  "homepage": "https://github.com/sonikakannan/Accredian-task#readme"
+}
